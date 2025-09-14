@@ -1,0 +1,233 @@
+.container{
+     /* display:flex;  */
+    /* justify-content: center;
+    align-items: center; */
+    height:205px;
+    width:100vw;
+    /* border:2px solid black */
+}
+.heading{
+    display: inline-block;
+}
+#one{
+    font-weight:300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+#two{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: italic;
+     font-weight:lighter;
+}
+
+body{
+    /* overflow: hidden; */
+    background-image: url("clouds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    transition:filter 0s ease;
+    min-height:100vh;
+    overflow-x: hidden;
+}
+ 
+.minicontainer{
+    display: flex;
+    justify-content: center;
+}
+.minicontain{
+    display: flex;
+    justify-content: center;
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    gap:15px;  
+    background-color: white;
+    width:448px;  
+    border-radius: 25px;
+    position:static;
+}
+#search{
+    width:321px;
+    outline: none;
+    border:none;    
+}
+#icon{
+    position:relative;
+    top:10px;
+}
+#button{
+    color:azure;
+    background-color:cadetblue ;
+    height:36px;
+    cursor:pointer;
+    border-radius: 10px;
+    width:70px;
+    
+
+}
+#div{
+    display: flex;
+    justify-content: center;
+    cursor:pointer;
+    gap:10px;
+
+}
+#secondbox{
+    width:672px;
+    padding:25px;
+    height:260px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1.5px 3.5px whitesmoke ;
+
+    
+}
+#second{
+    display: flex;
+    justify-content: center;
+    
+}
+#thirdbox{
+    width:672px;
+    height:445px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding:25px;
+
+
+}
+    
+#third{
+    display: flex;
+    justify-content: center;
+    
+}
+.all{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:35px;
+}
+#api{
+    color:#FFFFFF
+}
+#cityname{
+    display: flex;
+    flex-direction: column;
+    height:80px;
+    /* justify-content: center; */
+    position: relative;    
+}
+#rain{
+    position: absolute;
+    top:25px;
+    color:rgb(125, 123, 123);
+
+}
+#now{
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cadetblue;
+    width:35px;
+    border-radius: 5px;
+    align-self: flex-end;
+    position:absolute;
+    top:10px;
+    padding: 5px;
+}
+#temperature{
+    height:85px;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.same{
+    position: absolute;
+    right:10px;
+    top:0px; 
+    color:rgb(125, 123, 123);
+
+}
+#same{
+    position: absolute;
+    right:10px;
+    bottom:0px;
+    margin:10px;
+}
+#fore{
+    margin:0px 0px 38px 15px
+}
+#info{
+    height: 45px;
+    background-color: antiquewhite;
+    margin-top: 25px;
+    display:flex;
+    align-items: center;
+    gap:5px;
+    justify-content: space-evenly;
+    
+}
+#wind{
+    display: flex;
+    flex-direction: column;
+    height:40px;
+}
+#wi{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+#firstday{
+    display:flex;
+    justify-content:space-evenly;
+    border-bottom: 1px solid #ddd;
+}
+#sec{
+    display:flex;
+    justify-content: space-evenly;
+    width:115px;
+    height: 34px;
+    
+}
+#first{
+    display:flex;
+    /* justify-content: center; */
+    gap:25px;
+    position: relative;
+    width:520px;
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+}
+#c{
+    display:flex;
+    flex-direction: column;
+    gap:35px;
+}
+.pa{
+    color:rgb(125, 123, 123);
+}
+.color{
+    color:rgb(125, 123, 123);
+
+}
+.div{
+    color:rgb(121, 120, 120);
+    font-family: sans-serif;
+
+    
+}
+
