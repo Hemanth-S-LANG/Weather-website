@@ -6,38 +6,56 @@
     <title>Document</title>
     <link rel="stylesheet" href="project.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css">
 
 </head>
-<body>
-    <!-- <img src="clouds.png" alt="clouds" id="img">  -->
-    <div class="container">
-        <div class="minicontainer">
+<body class="body ">
+    <div id="loader" ></div>
+    <div id="loaders" >Loading...</div>
+
+<div class="d"  >
+    <form action="">
+    <input type="text" placeholder="enter day or night " class="x" >
+    
+    </form>
+    <button class="y">Enter</button>
+</div>
+</div>
+    
+    <div class="container bodys">
+        <div class="minicontainer ">
         <h1 id="one" class="heading">Weather App</h1>
         </div>
 
-        <div class="minicontain">
-            <h3 id="two" class="heading">Get current weather and 5-day forecasts for any city</h3> 
+        <div class="minicontain ">
+            <h3 id="two" class="heading bodys">Get current weather and 5-day forecasts for any city</h3> 
         </div>
         <div id="div">
-            <div class="search">
+            <div class="search ">
             <i class="fa-solid fa-magnifying-glass" id="icon"></i>
 
             <input type="text" placeholder="Search for a city..." id="search">
         </div>
         <button id="button">Search</button>
-    </div>
+        <i id="i" class="fa-solid fa-location-dot"></i>
         
-        
     </div>
+    
+    
+</div>
 
-<div class="all">
+<div class="all bodys">
 <div id="second">
     <div id="secondbox">
         <div id="cityname">
             <h3 style="font-weight: 300;" id="city">City name, Country</h3>
+            <div id="time"> 
+                10
+            </div>
+            
             <p id="rain" style="font-family:sans-serif;">rain</p>
             <p id="now">Now</p>
-
+            
         </div>
 
         <div id="temperature">
@@ -73,6 +91,7 @@
             <div class="win">8km</div>
             </div>
             </div>
+            
 
             <div id="wi">
             <i class="fa-solid fa-temperature-half"></i>
@@ -82,12 +101,66 @@
             </div>
             </div>
 
+            <div id="wi">
+            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+            <div id="wind">
+            <div class="div">ground_level</div>
+            <div class="win">1008hPa</div>
+            </div>
+            </div>
+
+        </div>
+
+                <div id="info">
+            <div id="wi">
+        <i class="fa-solid fa-sun"></i>
+            <div id="wind">
+            <div  class="div">Sunrise</div>
+            <div class="w">6:00am</div>
+            </div>
+
+            </div>
+
+            <div id="wi">
+            <i class="fa-solid fa-mountain-sun"></i>
+            <div id="wind">
+            <div class="div"> Sunset </div>
+            <div class="w">6:00pm</div>
+            </div>
+            </div>
+
+            <div id="wi">
+            <i class="fa-brands fa-airbnb"></i>
+            <div id="wind">
+            <div class="div">Air quality</div>
+            <div class="w">moderate</div>
+            </div>
+            </div>
+
+            <div id="wi">
+            <i class="fa-solid fa-water"></i>
+            <div id="wind">
+            <div class="div">sea_level</div>
+            <div class="w">1008hPa</div>
+            </div>
+            </div>
+
+            <div id="wi">
+            <i class="fa-solid fa-cloud-sun"></i>
+            <div id="wind">
+            <div class="div">UV Index</div>
+            <div class="w">10</div>
+            </div>
+            </div>
+
+            
+
         </div>
 
     </div>
     </div>
 
-    <div id="third">
+    <div id="third bodys">
 
     <div id="thirdbox">
         <p id="fore">5-Day Forecast
